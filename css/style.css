@@ -456,6 +456,47 @@ margin: .7rem 0;
     color: var(--second-bg-color);
   }
 
+
+
+
+
+  .body-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .sent-container{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: flex-start;
+    width: 56rem;
+    margin: 2rem;
+    background: var(--second-bg-color);
+    padding: 7rem 3rem;
+    border-radius: 2rem;
+  }
+
+  .sent-container h2{
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  }
+
+  .sent-container a{
+    font-size: 1.8rem;
+    color: var(--main-color);
+  }
+
+  .sent-container a:hover{
+    text-decoration: underline;
+    color: #1b76ff;
+  }
+
+
  /* ------------------Personalizar Scrollbar--------------- */
 ::-webkit-scrollbar {
   width: 10px;
@@ -717,4 +758,12 @@ margin: .7rem 0;
     .btn{
       font-size: 1.6rem;
     }
+
+       .sent-container h2{
+      font-size: 2.5rem;
+      }
+    
+      .sent-container a{
+        font-size: 1.2rem;
+      }
   }
