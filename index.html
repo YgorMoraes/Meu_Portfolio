@@ -231,7 +231,37 @@
 
     <!-- seção contato -->
 
+    <section class="contact" id="contact">
+      <h2 class="heading">Contato</h2>
 
+      <form
+        action="https://formsubmit.co/ygorluizmoraes@gmail.com"
+        method="POST"
+      >
+        <div class="input-box">
+          <input type="text" name="name" placeholder="Nome:*" required />
+          <input type="email" name="email" placeholder="E-mail:*" required />
+        </div>
+
+        <div class="input-box">
+          <input type="number" name="number" placeholder="Telefone:" />
+          <input type="text" name="_subject" placeholder="Assunto:*" required />
+        </div>
+
+        <textarea
+          name="message"
+          cols="30"
+          rows="7"
+          placeholder="Mensagem*"
+          required
+        ></textarea>
+
+        <button type="submit" class="btn">Enviar</button>
+
+        <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
+        <input type="text" name="_honey" style="display: none" />
+        <input type="hidden" name="_captcha" value="false" />
+      </form>
     </section>
 
     <!-- FOOTER -->
