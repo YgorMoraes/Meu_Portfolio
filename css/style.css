@@ -164,8 +164,6 @@ span{
   transform: scale(1.1);
 }
 
-
-
 .about{
   display: flex;
   justify-content: center;
@@ -222,8 +220,6 @@ span{
 .about-content p:last-child{
   margin-bottom: 0;
 } 
-
-
 
 .skills{
   background: var(--bg-color);
