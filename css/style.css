@@ -193,9 +193,9 @@ span{
 }
 
 .about-content img{
-  width: 17vw;
+  /* width: 17vw; */
   max-width: 25rem; 
-  min-width: 10rem; 
+  /* min-width: 10rem;  */
   opacity: .9;
   transition: .5s ease;
   border-radius: .8rem;
