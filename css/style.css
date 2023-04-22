@@ -165,10 +165,10 @@ span{
 }
 
 .about{
-  /* display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; */
+  flex-direction: column;
   background: var(--second-bg-color);
 }
 
@@ -222,8 +222,12 @@ span{
 } 
 
 .skills{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background: var(--bg-color);
 }
+
 .skills h2{
   margin-bottom: 5rem;
 }
@@ -262,6 +266,10 @@ span{
 }
 
 .projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: var(--second-bg-color);
 }
 
@@ -385,12 +393,20 @@ span{
   transform: scale(1.01);
 } 
 
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact h2{
   margin-bottom: 3.5rem;
 }
 
 .contact form{
-  max-width: 70rem;
+  width: 85vw;
+  max-width: 80rem;
   margin: 1rem auto;
   text-align: center;
 }
@@ -459,10 +475,6 @@ margin: .7rem 0;
     font-size: 2.4rem;
     color: var(--second-bg-color);
   }
-
-
-
-
 
   .body-container{
     display: flex;
@@ -568,13 +580,11 @@ margin: .7rem 0;
 
     .about-content{
       flex-direction: column;
-      /* gap: 2rem;------------------------------- */
       gap: 3rem;
     }
 
     .about h2{
-      /* margin-bottom: 0;------------------------- */
-      margin-bottom: 3rem;
+      margin-bottom: 1rem;
     }
 
     .about-content img{
@@ -688,6 +698,14 @@ margin: .7rem 0;
 }
 
   @media (max-width:470px){
+    .contact form .input-box input{
+      width: 100%;
+    }
+    
+    .projects-layer h4{
+      font-size: 2.5rem;
+    }
+
     .footer{
       flex-direction: column-reverse;
     }
@@ -695,14 +713,6 @@ margin: .7rem 0;
     .footer p{
       text-align: center;
       margin-top: 2rem;
-    }
-
-    .contact form .input-box input{
-      width: 100%;
-    }
-
-    .projects-layer h4{
-      font-size: 2.5rem;
     }
   }
 
