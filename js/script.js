@@ -31,13 +31,13 @@ window.onscroll = () => {
 
   header.classList.toggle('sticky', window.scrollY > 100)
 
-  //remover navbar quando clica no link da section////////
+  //remover navbar quando clica no link da section
   menuIcon.classList.remove('bx-x')
   navbar.classList.remove('active')
 }
 
 
-// scroll reveal////////////////
+// scroll reveal
 ScrollReveal({
   reset:false,
   distance: '1rem',
@@ -51,6 +51,7 @@ ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 
+//Typed.js
 const typed = new Typed('.multiple-text', {
   strings: ['Ygor Moraes'],
   typeSpeed: 150,
