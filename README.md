@@ -1,16 +1,16 @@
 <h1 align="center">
-  Portfólio <img width="30px" src="https://raw.githubusercontent.com/YgorMoraes/Meu_Portifolio/master/img/icon.png"/>
+  Portfólio <img width="30px" src="https://raw.githubusercontent.com/YgorMoraes/Meu_Portfolio/master/img/icon.png"/>
 </h1>
 
  <p align="center">
-  <img alt="Github Top Language" src="https://img.shields.io/github/languages/top/YgorMoraes/Meu_Portifolio?color=075FE4">
-  <img alt="Github Language Count" src="https://img.shields.io/github/languages/count/YgorMoraes/Meu_Portifolio?color=075FE4">
-  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/YgorMoraes/Meu_Portifolio?color=075FE4">
+  <img alt="Github Top Language" src="https://img.shields.io/github/languages/top/YgorMoraes/Meu_Portfolio?color=075FE4">
+  <img alt="Github Language Count" src="https://img.shields.io/github/languages/count/YgorMoraes/Meu_Portfolio?color=075FE4">
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/YgorMoraes/Meu_Portfolio?color=075FE4">
 </p>
 
 <br>
 
-![Resultado final do projeto](https://raw.githubusercontent.com/YgorMoraes/Meu_Portifolio/master/img/portifolio.png)
+![Resultado final do projeto](https://raw.githubusercontent.com/YgorMoraes/Meu_Portfolio/master/img/Portfolio.png)
 
 <br>
 
