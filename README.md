@@ -10,7 +10,7 @@
 
 <br>
 
-![Resultado final do projeto](https://raw.githubusercontent.com/YgorMoraes/Meu_Portfolio/master/img/Portfolio.png)
+![Resultado final do projeto](https://raw.githubusercontent.com/YgorMoraes/Meu_Portfolio/master/img/projetos/Portfolio.png)
 
 <br>
 
